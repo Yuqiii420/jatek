@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    background-color: #242526;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(172, 172, 172);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #cc4d4d;
+    color: rgb(243, 243, 243);
+}
+
+.column img {
+    text-align: center;
+    border-style: solid;
+    color: white;
+    border-radius: 12px;
+}
+
+.column {
+    text-align: center;
+    float: left;
+    padding: 17.5px;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+    padding: 20%;
+}
+
+.column img:hover {
+    border-style: inset;
+    border-color: rgb(212, 67, 67);
+    border-radius: 12px;
+}
